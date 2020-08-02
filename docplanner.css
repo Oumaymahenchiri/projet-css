@@ -1,0 +1,247 @@
+body{
+   margin: 0px;
+   padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: auto;
+    align-content: stretch;
+    top: 0%;
+
+}
+nav >ul{
+   
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 156px;
+   
+}
+nav >ul ::after{
+    content: "";
+    display: flex;
+    clear: both;
+}
+nav li{
+    list-style-type: none;
+    margin-left: -24px;
+    justify-content: flex-end;
+    margin-top: 5px;
+  
+
+}
+nav >ul >li{
+    float: left;
+    position: relative;
+   
+    justify-content: flex-end;
+    margin-top: -207px;
+}
+.departement{
+    display: none;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+nav >ul >li >a{
+    padding: 30px;
+    color: grey;
+}
+nav li:hover .departement{
+    display: inline-block;
+   position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+   
+}
+.departement li{
+    border-bottom: 0px;
+
+}
+.departement li a {
+    padding: 10px;
+    font-size: 13px;
+    color: grey;
+    width: 250px;
+}
+
+
+
+nav> img#logo{
+    width: 304px;
+    height: 177px;
+    margin-left: 158px;
+    padding-bottom: 61px;
+}
+#logo2{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 60px;
+    width: 69px;
+}
+h1{
+    font-size: 31px;
+    color: teal;
+    text-align: center;
+}
+#para1{
+    color: grey;
+    margin-left: 150px;
+    font-style: normal;
+    font-size: normal;
+    float: left;
+    width: 500px;
+    margin-top: 5px;
+   
+   
+}
+#para2{
+    color: grey;
+    
+    font-style: normal;
+    font-size: normal;
+    display: inline;
+    
+}
+#patients{
+    height: 314px;
+    width: 458px;
+    float: left;
+    margin-left: 150px;
+    background-color :#33DCB8;
+   
+   
+}
+div#patients >h6{
+    font-size: smaller;
+    color: white;
+    padding-top: 30px;
+    padding-left: 36px;
+}
+
+#countries{
+    padding-left: 36px;
+}
+#doctors{
+   margin-left: 646px;
+   width: 458px;
+   height: 313px;
+    background-color: #3352DC;
+   }
+   div#doctors >h6{
+       font-size: smaller;
+       color: white;
+       padding-top: 63px;
+       padding-left: 36px;
+   }
+ .parag{
+      font-size: 29px;
+    color: white;
+    font-style: normal;
+    padding-left: 36px;}
+
+   }
+
+ }
+#img1{
+    margin-left: 200px;
+    height: 50px;
+    width: 100px;
+    display: inline;
+}
+#logos{
+    width: 500px;
+    height: 100px;
+    display: inline-block;
+}
+img{
+    margin-left: 300px;
+    padding-top: 50px;
+}
+#bj{
+    color: #33DCA1;
+    padding-left: 155px;
+    font-size: 28px;
+}
+#liens{
+    margin-left: 444px;
+    display: inline-block;
+    margin-top: -174px;
+}
+#health{
+    background-color: #C5E2E8;
+    width: 100%;
+    height: 50%;
+}
+#healthcare{
+    color: #6DD5EA;
+    padding: 40px;;
+    padding-top: 95px;
+    font-size: 34px;
+}
+  #offices{
+      padding: 40px;
+      padding-top: 0px;
+
+  }
+  #leader{
+      height: 269px;
+      width: 305px;
+      background-color: white;
+     margin-left: 603px;
+     margin-top: -256px;
+     text-align: center;
+     color: teal;
+  }
+ #appoint{
+    height: 269px;
+    width: 305px;
+    background-color: white;
+   margin-left: 947px;
+   margin-top: -289px;
+   text-align: center;
+   color: teal;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+ }
+ #unique{
+    height: 269px;
+    width: 305px;
+    background-color: white;
+   margin-left: 603px;
+   margin-top: 38px;
+   text-align: center;
+   color: teal;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ #activedoc{
+    height: 269px;
+    width: 305px;
+    background-color: white;
+   margin-left: 947px;
+   margin-top: -289px;
+   text-align: center;
+   color: teal;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+ }
+ #more{
+     text-align: center;
+ }
+ footer{
+     text-align: center;
+     color: grey;
+     font-size: smaller;
+ }
